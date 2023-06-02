@@ -1,46 +1,96 @@
 <!DOCTYPE html>
 <head>
 <style>
+
 body {background-color: saddlebrown;}
 h1   {color: white;
 		font-family: sans;
-		border: 10px solid burlywood;
+		border: 10px outset burlywood;
+		border-radius: 10px;
 		font-size: 350%;
-padding: 20px;
-margin: 50px;
-}
-p    {color: white;
+		padding: 20px;
+		background-color:peru;
+		margin: 50px;
+	}
+	p   {color: white;
 		font-family: monospace;
-}
-#bottom {
+		font-size: 100%;
+	}
+	#bottom {
         position: absolute;
-font-family: monospace;
-color: white;
-        bottom: 0;
+		font-family: monospace;
+		color: white;
+		font-size: 40%;
+        
         left: 0;
       }
+
+</style>
+<style>
+li {
+  float: left;
+}
+li a {
+	display: block;
+	
+	border: 2px double none;
+	border-radius: 10px;
+  	padding: 10px;
+    box-sizing: border-box;
+  background-color: peru;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+
+.button {
+		
+
+        
+		font-family: monospace;
+		color: white;
+		border: 5px double burlywood;
+        
+		border-radius: 5px;
+      }
+
 </style>
 
 </head>
 <body>
+
+<ul>
+<li><a class = "button" href="aboutus.html">About Us</a></li>
+<li><a class = "button"href="products.html">Products</a></li>
+<img src="https://t4.ftcdn.net/jpg/05/14/51/79/360_F_514517927_dXLi1DauUmrCaE3AkElsVgJ1jaYZMcSA.jpg" alt="Coffee" width="100" height="100" style ="float:right;">
+</ul>
 <div class = "main">
+	
+		
+	
+
 	<div class ="column1">
-	<h1>This is a Heading</h1>
+	<h1>Coffee Haven</h1>
 	</div>
 	<div class = "column2">
-	<p>This is a paragraph.</p>
+	<p>Welcome to Coffee Haven!</p>
 	</div>
 	<hr>
+	<nav>
 	
-	<div id="bottom">Bottom area</div>
+	<div class ="column3">
+	<p style="color:white;">Indulge in the aroma and taste of exquisite coffee, crafted with passion and expertise. At Coffee Haven, we are dedicated to providing you with an exceptional coffee experience that will entice your senses and leave you craving for more.</p>
+<p style="color:white";>We take pride in sourcing the finest beans from renowned coffee-growing regions around the world. From the lush plantations of South America to the highlands of Africa and beyond, we carefully select beans that embody the unique flavors and characteristics of each origin. Our skilled baristas expertly roast and blend these beans to perfection, ensuring every cup of coffee is a masterpiece.</p>
+	</div>
+	<div id="bottom">Note: All products mentioned in this page are not real, as this is a mock website for a project</div>
 </div>
 </body>
-<body>
-<div class ="column3">
-	<p style="color:black;">something something home page welcome 		something something
-	coffee shop please go here or here idk test text</p>
-	</div>
-</body>
+
 
 </html>
 
